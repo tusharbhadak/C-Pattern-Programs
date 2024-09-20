@@ -11,8 +11,8 @@ int main()
         // first inner loop to print the * in each row
         for (int j = 0; j < rows - i; j++) {
             printf("* ");
-            //printf("%d ", j + 1);
-            //printf("%c ", 'A' + j);
+            //printf("%d ", j + 1);   // Numbers
+            //printf("%c ", 'A' + j);  // Alphabets
         }
         printf("\n");
     }

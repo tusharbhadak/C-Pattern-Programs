@@ -16,8 +16,8 @@ int main()
         // inner loop 2 to print star * character
         for (int k = 0; k < 2 * i + 1; k++) {
             //printf("* ");
-            //printf("%c ", 'A' + k);
-            printf("%d ", k + 1);
+            //printf("%c ", 'A' + k);  // Alphabets
+            printf("%d ", k + 1);   // Numbers
         }
         printf("\n");
     }

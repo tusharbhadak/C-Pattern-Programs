@@ -13,7 +13,7 @@ int main()
         // innter loop to print abphabet in each row
         for (int j = 0; j <= i; j++) {
             //printf("%d ", n++);
-            printf("%c ", n++);
+            printf("%c ", n++);  // Alphabets
         }
         printf("\n");
     }

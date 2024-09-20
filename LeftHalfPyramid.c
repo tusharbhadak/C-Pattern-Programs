@@ -16,8 +16,8 @@ int main()
         // loop for printing * character
         for (int k = 0; k <= i; k++) {
             //printf("* ");
-            //printf("%d ", k + 1);
-            printf("%c ", 'A' + k);
+            //printf("%d ", k + 1);  // left half pyramid pattern of number
+            printf("%c ", 'A' + k);  // left half pyramid pattern of alphabet
         }
         printf("\n");
     }

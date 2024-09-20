@@ -16,8 +16,8 @@ int main()
         // second inner loop for printing star *
         for (int k = 0; k < rows - i; k++) {
             //printf("* ");
-            printf("%d ", k + 1);
-            //printf("%c ", 'A' + k);
+            printf("%d ", k + 1);      // Numbers
+            //printf("%c ", 'A' + k); // Alphabets
         }
         printf("\n");
     }
